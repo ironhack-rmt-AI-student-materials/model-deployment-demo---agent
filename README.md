@@ -81,7 +81,7 @@ Type `exit` or `quit` to end the conversation.
 From the repository root:
 
 ```bash
-uvicorn app.api:app --reload
+uvicorn app.index:app --reload
 ```
 
 The API is available at `http://127.0.0.1:8000`. Open
